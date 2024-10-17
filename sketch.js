@@ -21,3 +21,13 @@ function draw() {
   if(mouseX > posicaoHorizontal){
      posicaoHorizontal = posicaoHorizontal +1; 
   }
+  
+  if(mouseY < posicaoVertical){
+     posicaoVertical = posicaoVertical -1; 
+  }
+  
+  if(mouseY > posicaoVertical){
+     posicaoVertical = posicaoVertical +1; 
+  }
+
+}
